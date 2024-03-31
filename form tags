@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="/submit.php">
+    <label for="user_email">Username:</label>
+    <input type="text" id="user_email" placeholder="Email" required="true"> <br><br>
+
+    <label for="user_password">Password:</label>
+    <input type="password" id="user_password"><br><br>
+
+    <label for="user_date"> Date:</label>
+    <input type="date" id="user_date"><br><br>
+
+    <label for="file">file:</label>
+    <input type="file" id="file"><br><br>
+
+    <label for="color">color:</label>
+    <input type="color" id="color"><br><br>
+    
+    <label for="range">price range:</label>
+    <input type="range" id="range"><br><br>
+
+    <label for="button1">Button:</label>
+    <input type="button" id="button1:" value="click me"><br><br>
+    
+    <label for="male">Male</label>
+    <input type="radio" id="male" Name="gender" value="Male">
+
+    <label for="female">Female</label>
+    <input type="radio" id="female" Name="gender" value="Female">
+    
+    <label for="other">Other</label>
+    <input type="radio" id="other" Name="gender" value="Other">
+    <br><br>
+
+    <label for="apple">Apple</label>
+    <input type="checkbox" id="apple" Name="fruit" value="Apple"><br><br>
+    <label for="banana">Banana</label>
+    <input type="checkbox" id="banana" Name="fruit" value="Banana">
+    <br><br>
+    <label for="cherry">Cherry</label>
+    <input type="checkbox" id="cherry" Name="fruit" value="Cherry">
+    <br><br>
+
+    <label for="country">Select your Country</label>
+    <select name="country" id="country">
+      <option value="India">India</option>
+      <option value="US">US</option>
+      <option value="UK">UK</option>
+      <option value="other">other</option>
+    </select><br><br>
+
+    <label for="Description">Description:-</label><br>
+    <textarea name="Description" id="Description" cols="40" rows="4">
+      Write here
+    </textarea><br><br>
+    <input type="submit">
+
+  </form>
+</body>
+</html>

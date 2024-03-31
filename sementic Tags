@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h2>this is header</h2>
+    <nav>
+    <h2>this is navigation bar</h2><br>
+    <a href="#Home">Home</a>
+    <a href="#about us">About us</a>
+    <a href="#Serices">Services</a>
+    <a href="#contact us">Contact us</a>
+    </nav>
+    
+  </header>
+  <hr>
+  <main>
+    This is main <br><br>
+    <section>Techologies:HTML,CSS</section>
+    <section>course:os/DBMS</section> 
+    <section>Hobbies:drawing</section><br>
+
+    <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consequuntur exercitationem non commodi quibusdam! Unde eligendi odio voluptatem maxime, fugiat blanditiis! Laudantium eos aliquid accusantium magni quod voluptas eum repellat quis asperiores nulla voluptatum, placeat doloribus nisi possimus minus sequi nobis recusandae unde voluptate commodi dolor illo nesciunt aut? Modi.</article>
+
+    <section><h2>Admission</h2>
+    <p>admission <span id="open">Open</span> soon</p></section>
+
+    <aside>
+      <h3>Recommended Books</h3>
+      <ul>
+        <li>"Introduction to Algorithms"</li>
+        <li>"Learn python the Hardway"</li>
+      </ul>
+    </main>
+    <hr>
+      <footer><h3>this is Footer </h3>
+        &copy;2024 aanchal.com
+
+      </footer>
+
+
+</body>
+</html>

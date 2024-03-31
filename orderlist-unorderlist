@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ol type="A">
+    <li>HTML
+      <ol type="i">
+        <li>Level 0</li>
+        <li>Level 1</li>
+
+      </ol>
+    </li>
+    <li>java</li>
+    <li>c++</li>
+    <li>c</li>
+    <li>python</li>
+  </ol>
+
+  <ul>
+    <li>apple</li>
+    <li>banana</li>
+    <li>pineapple</li>
+    <li>cherry</li>
+  </ul>
+  
+</body>
+</html>
